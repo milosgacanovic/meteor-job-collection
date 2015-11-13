@@ -985,6 +985,9 @@ class JobCollectionBase extends Mongo.Collection
     check options, Match.Optional
       repeatId: Match.Optional Boolean
 
+    this.done
+    console.log "job is done."
+
     options ?= { repeatId: false }
     time = new Date()
     doc = @findOne(

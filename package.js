@@ -7,10 +7,10 @@
 var currentVersion = '1.2.3';
 
 Package.describe({
-  summary: "A persistent and reactive job queue for Meteor, supporting distributed workers that can run anywhere",
-  name: 'vsivsi:job-collection',
+  summary: "Forked from vsivsi::job-collection. Planning to implement this.done(); on some methods to speedup.",
+  name: 'milosgacanovic:job-collection',
   version: currentVersion,
-  git: 'https://github.com/vsivsi/meteor-job-collection.git'
+  git: 'https://github.com/milosgacanovic/meteor-job-collection.git'
 });
 
 Package.onUse(function(api) {
