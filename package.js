@@ -4,10 +4,10 @@
 ###     See included LICENSE file for details.
 ***************************************************************************/
 
-var currentVersion = '1.2.3';
+var currentVersion = '1.2.4';
 
 Package.describe({
-  summary: "Forked from vsivsi::job-collection. Planning to implement this.done(); on some methods to speedup.",
+  summary: "Forked from vsivsi::job-collection. Planning to implement this.done(); on some methods for speed.",
   name: 'milosgacanovic:job-collection',
   version: currentVersion,
   git: 'https://github.com/milosgacanovic/meteor-job-collection.git'
